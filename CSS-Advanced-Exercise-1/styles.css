@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background: rgb(189, 186, 186)
+}
+
+nav {
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+#tesla-logo {
+    width: 50px;
+    float: left; 
+    margin-right: 10px;
+    display: flex; 
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+
+li {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #eb4f56;
+    color: white;
+    white-space: nowrap;
+  }
+
+  li:last-child {
+    margin-right: 0;
+}
+
+#hero {
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+#submit {
+    box-shadow: 5px 5px 4px #888;
+}
+
+#subscribe {
+    box-shadow: 5px 5px 4px #888;
+}
+
+article {
+    position: relative;
+    top: 250px;
+    
+
+}
+
+article p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article h2 {
+    text-align: center;
+}
+
+#news {
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 320px;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
